@@ -1,5 +1,68 @@
 @import "~bootstrap/scss/bootstrap";
-
-body{
-    background-color: aqua;
+p{
+    margin: 0;
 }
+
+#header{
+    .blue-line{
+        background-color: #0282f9;
+        height: 25px;
+        .blue-second-line {
+            height: 25px;
+            .register-visa, .addition-dc-sites{
+                font-size: 11px;
+                color: white;
+                    .rm{
+                        font-size: 5px;
+                        vertical-align: super;
+                        color: white;
+                        margin-left: -4px;
+                        margin-right: 2px;
+                    }
+            }
+
+        }
+    }
+    .register-visa{
+        margin-right: 60px;
+    }
+    .padding-18{
+        padding: 18px 0;
+    }
+    .logo-img-container{
+        width: 80px;
+        margin-right: 95px;
+            .logo-img{
+                width: 100%;
+            }
+    }
+    a{
+        font-size: 1vw;
+        text-decoration: none;
+        color: #303030;
+    }
+    // header search bar
+    .menu-search{
+        border: none;
+        outline: none;
+        width: 124px;
+        margin-left: 50px;
+        padding-bottom: 16px;
+    }
+    input::placeholder {
+        text-align: right;
+        color: #303030;
+        font-weight: 500;
+    }
+    #search {
+        display: none;
+    }
+    .shop-list{
+        font-size: 11px;
+        margin-top: 3px;
+        margin-left: 8px;
+        color: #0282f9;
+    }
+
+}
+
