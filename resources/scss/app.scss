@@ -2,13 +2,16 @@
 p{
     margin: 0;
 }
-
+/******
+header
+******/
 #header{
     .blue-line{
         background-color: #0282f9;
         height: 25px;
         .blue-second-line {
             height: 25px;
+            margin-right: 1vw;
             .register-visa, .addition-dc-sites{
                 font-size: 11px;
                 color: white;
@@ -49,6 +52,9 @@ p{
         margin-left: 50px;
         padding-bottom: 16px;
     }
+    .margin{
+        margin-left: -9px;
+    }
     input::placeholder {
         text-align: right;
         color: #303030;
@@ -66,3 +72,13 @@ p{
 
 }
 
+/******
+fine header
+******/
+/*****
+main
+*****/
+
+/*****
+fine main
+*****/
