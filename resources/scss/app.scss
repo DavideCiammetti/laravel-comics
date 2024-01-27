@@ -6,6 +6,7 @@ p{
 header
 ******/
 #header{
+    // linea blu su header
     .blue-line{
         background-color: #0282f9;
         height: 25px;
@@ -29,6 +30,7 @@ header
     .register-visa{
         margin-right: 60px;
     }
+     //fine linea blu su header
     .padding-18{
         padding: 18px 0;
     }
@@ -63,6 +65,7 @@ header
     #search {
         display: none;
     }
+    // icona freccia nel menu 
     .shop-list{
         font-size: 11px;
         margin-top: 3px;
@@ -101,20 +104,48 @@ main
     }
     .grid-dc{
         background-color: #1c1c1c;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
             .button-col {
                 background-color: #0282f9;
                 padding: 10px 25px;
                 font-weight: 500;
                 font-size: 20px;
             }
+            .but-padd{
+                padding: 10px 32px;
+            }
     }
+    // pulsante superiore 
     .position-but{
         position: absolute;
         top: -21px;
         left: 68px;
     }
+    // menu centrale
+    .menu-container{
+        background-color: #0282f9;
+        padding: 1.3125rem;
+        z-index: 22222;
+            ul{
+                .list-menu{
+                    padding: .9375rem;
+                        .padd-img img{
+                            padding: .4375rem;
+                        }
+                        .img-container{
+                            padding: .4375rem;
+                            img{
+                                width: 3.4375rem;
+                            }
+                        }
+                        p{
+                            color: white;
+                        }
+                }
+            }
+    }
 }
+
 /*****
 fine main
 *****/
