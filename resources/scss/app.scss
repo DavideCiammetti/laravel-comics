@@ -1,6 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
-p{
+p, ul{
     margin: 0;
+}
+
+.border-bot-blue:hover{
+    border-bottom:4px solid #0282f9;
 }
 /******
 header
@@ -36,7 +40,9 @@ header
     }
     .logo-img-container{
         width: 80px;
-        margin-right: 75px;
+        margin-right: 40px;
+        padding-bottom: 18px;
+        padding-top: 18px;
             .logo-img{
                 width: 100%;
             }
@@ -46,21 +52,29 @@ header
         text-decoration: none;
         color: #303030;
     }
+    .col-blue-300:hover{
+        color: #0282f9;
+    }
     // header search bar
     .menu-search{
         border: none;
         outline: none;
         width: 124px;
-        margin-left: 50px;
-        padding-bottom: 16px;
+        margin-left: 20px;
+        margin-bottom: 16px;
+        border-bottom:2px solid #0282f9;
+    }
+    .mrg-t-search{
+        margin-top: 43px;
     }
     .margin{
-        margin-left: -9px;
+        margin-left: -15px;
     }
     input::placeholder {
         text-align: right;
         color: #303030;
         font-weight: 500;
+        margin-right: 10px;
     }
     #search {
         display: none;
@@ -74,6 +88,12 @@ header
     }
 
 }
+.jumbotron{
+    background-image: url('../img/jumbotron.jpg');
+    height: 22vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /******
 fine header
@@ -82,12 +102,12 @@ fine header
 main
 *****/
 #main{
-    .jumbotron{
-        background-image: url('../img/jumbotron.jpg');
-        height: 22vw;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+    // .jumbotron{
+    //     background-image: url('../img/jumbotron.jpg');
+    //     height: 22vw;
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    // }
     // griglia immagini
     .thumb-container{
         width: 180px;
