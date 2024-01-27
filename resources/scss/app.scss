@@ -2,7 +2,11 @@
 p, ul{
     margin: 0;
 }
-
+body{
+    position: relative;
+    z-index: 222222;
+    background-color: #1c1c1c;
+}
 .border-bot-blue:hover{
     border-bottom:4px solid #0282f9;
 }
