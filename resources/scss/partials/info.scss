@@ -1,0 +1,73 @@
+.blu-row{
+    background-color: #0282f9;
+    height: 80px;
+}
+main{
+    background-color: white;
+}
+.top-left{
+    top: -150px;
+    left: 48px;
+}
+.back-col-white{
+    background-color: white;
+}
+.info-container{
+    .green-row{
+        background-color: #55ba59;
+        border-bottom:  1px solid #357739;
+        .green-500{
+            background-color: #55ba59;
+            border: none;
+        }
+        .col-green-100{
+            color: #baf980;
+        }
+        .drop-list{
+            border-left: 1px solid #357739;
+            padding: 7px;
+        }
+    }
+    .title{
+        color: #003f5e;
+    }
+    .width-4{
+        width: 496px;
+    }
+    .width-description{
+        width: 62%;
+    }
+    .font-s-12{
+        font-size: 12px;
+    }
+}
+.container-info-card{
+    .talent-container,
+    .specs-container{
+        width: 468px;
+            .margin-l-80{
+                margin-right: 80px;
+            }
+            .col-b-200{
+                color: #00a9d9;
+            }
+            .f-12{
+                font-size: 12px;
+            }
+            .col-b-800{
+                color: #003f80;
+                font-weight: 600;
+            }
+    }
+    .specs-container{
+        margin-left: 50px;
+    }
+    background-color: #f6f6f6;
+    margin-top: 70px;
+    .img-container-info{
+        width: 50px;
+            img{
+                width: 100%;
+            }
+    }
+}

@@ -3,8 +3,6 @@ p, ul{
     margin: 0;
 }
 body{
-    position: relative;
-    z-index: 222222;
     background-color: #1c1c1c;
 }
 .border-bot-blue:hover{
@@ -106,12 +104,6 @@ fine header
 main
 *****/
 #main{
-    // .jumbotron{
-    //     background-image: url('../img/jumbotron.jpg');
-    //     height: 22vw;
-    //     background-repeat: no-repeat;
-    //     background-size: cover;
-    // }
     // griglia immagini
     .thumb-container{
         width: 180px;

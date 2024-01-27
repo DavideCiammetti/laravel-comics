@@ -20,3 +20,10 @@ Route::get('/', function () {
     ];
     return view('shared.welcome',  $data);
 });
+
+Route::get('/info0', function () {
+    $data = [
+        'comics' => config('comicsDb'),
+    ];
+    return view('shared.info0',  $data);
+});
