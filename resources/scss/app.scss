@@ -36,7 +36,7 @@ header
     }
     .logo-img-container{
         width: 80px;
-        margin-right: 95px;
+        margin-right: 75px;
             .logo-img{
                 width: 100%;
             }
@@ -149,3 +149,72 @@ main
 /*****
 fine main
 *****/
+/****
+footer
+*****/
+.foot-main-container{
+    background: url('../img/footer-bg.jpg');
+    background-size: cover;
+    height: 34vw;
+    background-repeat: no-repeat;
+    padding: 35px 0;
+        ul{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: #959595;
+            }
+            h3{
+                color: white;
+                font-size: 21px;
+                margin-bottom: 15px;
+            }
+            .shop-margin{
+                margin-top: 10px;
+            }
+        }
+
+        .dc-img-big{
+            width: 45vw;
+            left: 45%;
+            top: -83px;
+                .dc-img-big{
+                    width: 100%;
+                    z-index: 1;
+                }
+        }
+        .subtitle-foot{
+            padding-left: 32px;
+            p{
+                color: #959595;
+                font-size: 12px;
+            }
+        }
+}
+ // menu in basso 
+ .foot-container{
+    background-color: #303030;
+    height: 100px;
+    z-index: 22222;
+        .follow{
+            margin-right: 7px;
+            color: #0282f9;
+        }
+            .social-ico{
+                color: white;
+                margin-right: 10px;
+                padding-top: 12px;
+                width: 1.5rem;
+                    img{
+                        width: 100%;
+                    }
+            }
+
+        button{
+            color: white;
+            font-weight: 600;
+            background-color: #303030;
+            padding: 15px 12px;
+            border: 2px solid #0282f9;
+        }
+}
