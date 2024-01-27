@@ -78,7 +78,43 @@ fine header
 /*****
 main
 *****/
-
+#main{
+    .jumbotron{
+        background-image: url('../img/jumbotron.jpg');
+        height: 22vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    // griglia immagini
+    .thumb-container{
+        width: 180px;
+        height: 220px;
+            .thumb-img{
+                width: 100%;
+                height: 100%;
+                display: block;
+            }
+    }
+    // font titoli foto
+    .font-s{
+        font-size: 13px;
+    }
+    .grid-dc{
+        background-color: #1c1c1c;
+        padding-bottom: 50px;
+            .button-col {
+                background-color: #0282f9;
+                padding: 10px 25px;
+                font-weight: 500;
+                font-size: 20px;
+            }
+    }
+    .position-but{
+        position: absolute;
+        top: -21px;
+        left: 68px;
+    }
+}
 /*****
 fine main
 *****/

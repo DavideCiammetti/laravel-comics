@@ -8,3 +8,9 @@ nella cartella COMPONENTS---> ci sono come detto prima i componenti che poi andr
 
 --------HEADER---------
 nell'header avremo i link del menu, per far si che al click portino alla pagina richiesta useremo le routes
+
+## passaggio dati per main
+
+per le cards del mani uso lo scambio di informazioni tra il **welcome.blade.php e main.blade.php
+
+tramite lo @yield() collegato alla @section('main') in **welcome.blade.php

@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('shared.welcome');
+
+    $data = [
+        'comics' => config('comicsDb'),
+    ];
+    return view('shared.welcome',  $data);
 });
