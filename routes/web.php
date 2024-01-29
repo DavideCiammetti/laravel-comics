@@ -13,17 +13,26 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/{id}', function ($id) {
+
+//     $comics = config('comicsDb');
+//     $comic = $comics[$id];
+
+//     return view('shared.welcome',  $comic);
+// });
+
 Route::get('/', function () {
 
     $data = [
         'comics' => config('comicsDb'),
     ];
-    return view('shared.welcome',  $data);
-});
 
-Route::get('/info0', function () {
-    $data = [
-        'comics' => config('comicsDb'),
-    ];
-    return view('shared.info0',  $data);
+    return view('shared.welcome', $data);
+});
+Route::get('/info/{id}', function ($id) {
+
+    $comics = config('comicsDb');
+    $comic = $comics[$id];
+   
+    return view('shared.info',  compact('comic'));
 });
